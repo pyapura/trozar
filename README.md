@@ -15,7 +15,13 @@ El paquete se puede instalar en un cualquier ambiente activado de Python mediant
 $ pip install trozar
 ```
 
-Luego, para usarlo como una librería:
+Para invocar la interfaz de línea de comandos (*cli*) en la consola:
+
+```bash
+>>> trozar --help
+```
+
+Finalmente, para usar el paquete como una librería:
 
 ```python
 >>> from arboles.arbol_pita import ArbolPita
