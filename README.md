@@ -15,10 +15,10 @@ El paquete se puede instalar en un cualquier ambiente activado de Python mediant
 $ pip install trozar
 ```
 
-Para invocar la interfaz de línea de comandos (*cli*) en la consola:
+Para invocar la interfaz con la línea de comandos (*cli*) en la consola:
 
 ```bash
->>> trozar --help
+$ trozar --help
 ```
 
 Finalmente, para usar el paquete como una librería:
