@@ -1,0 +1,26 @@
+PATRÓN DE TROZADO DEL FUSTE DE UN ÁRBOL
+
+Árbol: $arbol_i
+Especie: $arbol_sp
+Dap (cm): $arbol_d
+Altura total (m): $arbol_h
+Volumen total (m^3): $arbol_v
+Volumen útil (m^3): $arbol_vu
+Valor (unidades monetarias): $arbol_vl
+Algoritmo de trozado: $algoritmo
+Matriz de precios: $matriz_precios
+
+      Tipo de           Diámetro             Altura de corte
+Orden  rollo    Valor  mayor menor Longitud inferior superior Volumen
+----- ------- -------- ----- ----- -------- -------- -------- -------
+$tabla
+-----
+En la tabla se informa el tipo de rollo usando los alias de la matriz de 
+precios. El valor está expresado en la unidad monetaria usada en la matriz de 
+precios, los diámetros en cm, la longitud y las alturas en m y el volumen en 
+m^3.
+-----
+trozar, Copyright (C) 2025, Pablo Yapura. 
+This program comes with ABSOLUTELY NO WARRANTY. This is free software, and you 
+are welcome to redistribute it under certain conditions. For details look for 
+the appropriate parts of the GNU General Public License.

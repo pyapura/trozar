@@ -1,0 +1,41 @@
+espec_tp,espec_al,espec_lt,espec_dm,espec_pc
+Exportación,Exp_01,12.1,20,1.00
+Exportación,Exp_02,8.1,20,0.85
+#Exportación,Exp_03,5.9,20,0.70
+Exportación,Exp_04,4.1,20,0.60
+Debobinado,Deb_01,7.3,30,0.80
+Debobinado,Deb_02,5.7,30,0.70
+#Debobinado,Deb_03,4.5,35,0.70
+Aserrado,Ase_01,6.1,30,0.70
+Aserrado,Ase_02,4.1,30,0.65
+#Aserrado,Ase_03,6.1,25,0.65
+Aserrado,Ase_04,3.6,25,0.60
+Aserrado,Ase_05,4.1,20,0.55
+Triturado,Tri_01,2.1,10,0.35
+#Triturado,Tri_02,2.4,7,0.30
+Triturado,Tri_03,2.2,7,0.30
+
+# ¡Nunca borrar la primera línea de este archivo!
+# No es necesario borrar estas líneas que se inician con el símbolo # ni las 
+# líneas en blanco.
+# Esta es una plantilla del archivo en formato CSV con los datos de las 
+# especificaciones de rollo que se deben suministrar para conformar una matriz 
+# de precios. El archivo debe existir y residir en la carpeta o directorio 
+# actual de trabajo. La estructura de datos que debe tener este archivo es la 
+# siguiente:
+# * La primera línea contiene los nombres de las cinco columnas de datos que se 
+#   deben suministrar, separados por comas y de acuerdo con:
+#   ** espec_tp: tipo de rollo.
+#   ** espec_al: alias del tipo de rollo.
+#   ** espec_lt: Longitud del tipo de rollo (m).
+#   ** espec_dm: diámetro mínimo de la sección menor del tipo de rollo (cm).
+#   ** espec_pc: precio del tipo de rollo ($/m^3).
+# * Cada línea posterior debe contener los datos de una especificación de rollo 
+#   para cada una de las cinco columnas, en el orden señalado y separados por 
+#   comas. Para valores fraccionarios se debe usar el símbolo del punto como 
+#   separador decimal.
+# * Para excluir especificaciones de la matriz de precios, inserte el símbolo # 
+#   al principio de la línea (e.g., líneas 4, 8, 11 y 15).
+# * Para incluir especificaciones en la matriz de precios, asegúrese que su 
+#   linea NO empiece con el símbolo # (e.g., todas las líneas con excepción de  
+#   las líneas 4, 8, 11 y 15).

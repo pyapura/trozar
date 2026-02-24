@@ -1,0 +1,37 @@
+arbol_i,arbol_d,arbol_h
+1,29.3,24.6
+2,31.1,25.2
+3,39.8,26.0
+4,34.4,24.0
+5,27.4,23.8
+6,36.9,25.1
+7,30.9,24.3
+8,28.4,24.6
+9,29.1,25.0
+10,32.0,24.4
+11,44.8,25.7
+12,33.5,23.9
+13,26.3,24.6
+14,45.2,26.0
+15,33.9,24.8
+16,37.3,25.5
+17,43.0,26.3
+18,22.7,23.3
+19,30.6,26.1
+20,23.0,22.9
+
+# ¡Nunca borrar la primera línea de este archivo!
+# No es necesario borrar estas líneas que se inician con el símbolo # ni las 
+# líneas en blanco.
+# Este es un ejemplo del archivo en formato CSV con los datos de todos los 
+# árboles de la misma especie cuyo trozado se quiere simular. El archivo debe 
+# existir y residir en la carpeta o directorio actual de trabajo. La estructura
+# de datos que debe tener este archivo es la siguiente:
+# * La primera línea contiene los nombres de las tres columnas de datos que se 
+#   deben suministrar, separados por comas y de acuerdo con:
+#   ** arbol_i: identificador del árbol.
+#   ** arbol_d: diámetro a la altura del pecho (cm) del árbol, con corteza.
+#   ** arbol_h: altura total del árbol (m).
+# * Cada línea posterior debe contener los datos de un árbol para cada una de 
+#   las tres columnas, en el orden señalado y separados por comas. Para valores
+#   fraccionarios se debe usar el símbolo del punto como separador decimal.
